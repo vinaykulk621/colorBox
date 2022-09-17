@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.black26,
         appBar: AppBar(
-          backgroundColor: Colors.green,
+          leading: IconButton(onPressed: () {}, icon: Icons.home),
         ),
       ),
     );
